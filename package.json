@@ -1,0 +1,9 @@
+{
+  "name": "piraldogroupfinance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private budget dashboard with server-side auth",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

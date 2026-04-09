@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: piraldogroupfinance
+    runtime: node
+    buildCommand: "echo 'No build step required'"
+    startCommand: "npm start"
+    envVars:
+      - key: APP_USER
+        sync: false
+      - key: APP_PASS
+        sync: false
